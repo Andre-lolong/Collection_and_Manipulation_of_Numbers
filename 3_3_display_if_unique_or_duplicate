@@ -1,13 +1,22 @@
 # get numbers from user
 # chech if it is a unique or a duplicate
+entered_numbers = set()
+
 while True:
     try:
         user_input = input("Enter a number: ")
         number = int(user_input)
+        
+        # print the result
+        if number in entered_numbers:
+            print("Duplicate")
+        else:
+            print("Unique")
+            entered_numbers.add(number)        
     except ValueError:
         print("Invalid input. Exiting program.")
         break
 
-# print the result
+
 
     
