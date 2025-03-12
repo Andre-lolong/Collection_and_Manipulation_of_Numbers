@@ -3,7 +3,7 @@ num1 = int(input("Enter a value for number 1: "))
 num2 = int(input("Enter a value for number 2: "))
 
 # perfrom arithmetic operation (division)
-# check for undefined answer\
+# check for undefined answer
 # print quotient
 if  num1 != 0 and num2 != 0:
     print(f"The first number divided by the second number will resuslt to {num1/num2}\n")
