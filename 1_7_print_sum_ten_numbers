@@ -1,3 +1,9 @@
 # ask the user for numbers
 # add all given numbers
+sum = 0
+for i in range(10):
+    num = int(input(f"Enter value for number {i + 1}: "))
+    sum += num
+
 # print sum
+print(f"The summation of ten numbers is: {sum}")
