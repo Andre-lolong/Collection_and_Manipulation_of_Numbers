@@ -4,7 +4,6 @@ def display_filtered_numbers():
     seen = set()
     filtered_numbers = []
 
-
     for i in range(10):
         num = int(input(f"Enter a value for number {i + 1}: "))
         numbers.append(num)
