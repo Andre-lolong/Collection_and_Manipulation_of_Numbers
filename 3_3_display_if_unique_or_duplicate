@@ -1,5 +1,13 @@
 # get numbers from user
 # chech if it is a unique or a duplicate
+while True:
+    try:
+        user_input = input("Enter a number: ")
+        number = int(user_input)
+    except ValueError:
+        print("Invalid input. Exiting program.")
+        break
+
 # print the result
 
     
