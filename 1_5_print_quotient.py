@@ -6,7 +6,7 @@ num2 = int(input("Enter a value for number 2: "))
 # check for undefined answer
 # print quotient
 if  num1 != 0 and num2 != 0:
-    print(f"The first number divided by the second number will resuslt to {num1/num2}\n")
+    print(f"The first number divided by the second number will resuslt to {num1/num2}")
     print("and")
     print(f"The second number divided by the first number will resuslt to {num2/num1}")
 elif num1 != 0 and num2 == 0:
