@@ -1,3 +1,5 @@
 # use for loop
-# identify even
-# print even
+for i in range(101):
+    if i % 2 == 0: # identify even
+        print(i) # print even
+
