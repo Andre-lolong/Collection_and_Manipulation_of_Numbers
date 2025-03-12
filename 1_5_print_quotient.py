@@ -19,3 +19,5 @@ if num1 == 0 and num2 != 0:
     print("The second number divided by the first number will be undefined")
 if num1 == 0 and num2 == 0:
     print("This operation is unforgivable")
+else:
+    print("Try again")
